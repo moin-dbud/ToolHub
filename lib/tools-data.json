@@ -1,0 +1,538 @@
+{
+  "categories": [
+    {
+      "id": "text-writing",
+      "name": "Text & Writing Tools",
+      "description": "Powerful tools for writing, editing, and managing text content",
+      "icon": "🧠",
+      "tools": [
+        {
+          "id": "word-character-counter",
+          "title": "Word & Character Counter",
+          "description": "Count words, characters, sentences, and paragraphs in real-time.",
+          "badge": "Trending",
+          "link": "/tools/word-counter"
+        },
+        {
+          "id": "text-case-converter",
+          "title": "Text Case Converter",
+          "description": "Convert text to UPPERCASE, lowercase, Title Case, or aLtErNaTiNg CaSe.",
+          "link": "/tools/text-case-converter"
+        },
+        {
+          "id": "text-diff-checker",
+          "title": "Text Diff Checker",
+          "description": "Compare two texts side-by-side with highlighted differences.",
+          "badge": "Popular",
+          "link": "/tools/text-diff-checker"
+        },
+        {
+          "id": "remove-extra-spaces",
+          "title": "Remove Extra Spaces",
+          "description": "Clean up duplicate spaces, line breaks, and trailing whitespace.",
+          "link": "/tools/remove-extra-spaces"
+        },
+        {
+          "id": "markdown-previewer",
+          "title": "Markdown Previewer",
+          "description": "Write Markdown and see live HTML preview with syntax support.",
+          "link": "/tools/markdown-previewer"
+        },
+        {
+          "id": "text-sorter",
+          "title": "Text Sorter",
+          "description": "Sort lines alphabetically, reverse order, or remove duplicates.",
+          "link": "/tools/text-sorter"
+        },
+        {
+          "id": "lorem-ipsum-generator",
+          "title": "Lorem Ipsum Generator",
+          "description": "Generate placeholder text by words, sentences, or paragraphs.",
+          "link": "/tools/lorem-ipsum-generator"
+        },
+        {
+          "id": "slug-generator",
+          "title": "Slug Generator",
+          "description": "Convert text to URL-friendly slugs with custom separators.",
+          "badge": "New",
+          "link": "/tools/slug-generator"
+        }
+      ]
+    },
+    {
+      "id": "document-file",
+      "name": "Document & File Tools",
+      "description": "Manage, convert, and secure your PDF files and documents",
+      "icon": "📄",
+      "tools": [
+        {
+          "id": "pdf-merge",
+          "title": "PDF Merge",
+          "description": "Combine multiple PDFs into a single document.",
+          "badge": "Popular",
+          "link": "/tools/pdf-merge"
+        },
+        {
+          "id": "pdf-split",
+          "title": "PDF Split",
+          "description": "Extract specific pages or ranges from a PDF file.",
+          "link": "/tools/pdf-split"
+        },
+        {
+          "id": "pdf-compress",
+          "title": "PDF Compress",
+          "description": "Reduce PDF file size without losing quality.",
+          "link": "/tools/pdf-compress"
+        },
+        {
+          "id": "images-to-pdf",
+          "title": "Images to PDF",
+          "description": "Convert multiple images into a single PDF document.",
+          "link": "/tools/images-to-pdf"
+        },
+        {
+          "id": "pdf-to-images",
+          "title": "PDF to Images",
+          "description": "Extract PDF pages as PNG or JPG images.",
+          "link": "/tools/pdf-to-images"
+        },
+        {
+          "id": "csv-to-json",
+          "title": "CSV to JSON Converter",
+          "description": "Transform CSV data into structured JSON format.",
+          "badge": "Trending",
+          "link": "/tools/csv-to-json"
+        },
+        {
+          "id": "json-to-csv",
+          "title": "JSON to CSV Converter",
+          "description": "Convert JSON arrays into downloadable CSV files.",
+          "link": "/tools/json-to-csv"
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "Image Tools",
+      "description": "Powerful tools for editing, converting, and enhancing images",
+      "icon": "🎨",
+      "tools": [
+        {
+          "id": "image-resize",
+          "title": "Image Resize",
+          "description": "Resize images by dimensions or percentage with aspect ratio lock.",
+          "badge": "Popular",
+          "link": "/tools/image-resize"
+        },
+        {
+          "id": "image-compress",
+          "title": "Image Compress",
+          "description": "Reduce image file size with adjustable quality settings.",
+          "link": "/tools/image-compress"
+        },
+        {
+          "id": "image-format-converter",
+          "title": "Image Format Converter",
+          "description": "Convert between JPG, PNG, WEBP, and other formats.",
+          "badge": "Trending",
+          "link": "/tools/image-format-converter"
+        },
+        {
+          "id": "crop-rotate-image",
+          "title": "Crop & Rotate Image",
+          "description": "Crop images with preset ratios or rotate/flip in any direction.",
+          "link": "/tools/crop-rotate-image"
+        },
+        {
+          "id": "image-metadata-viewer",
+          "title": "Image Metadata Viewer",
+          "description": "View EXIF data, GPS location, and camera settings from photos.",
+          "link": "/tools/image-metadata-viewer"
+        },
+        {
+          "id": "image-to-base64",
+          "title": "Image to Base64",
+          "description": "Convert images to Base64 strings for embedding.",
+          "link": "/tools/image-to-base64"
+        },
+        {
+          "id": "image-color-extractor",
+          "title": "Image Color Extractor",
+          "description": "Extract dominant colors and color palette from any image.",
+          "link": "/tools/image-color-extractor"
+        },
+        {
+          "id": "add-watermark-image",
+          "title": "Add Watermark to Image",
+          "description": "Overlay text or image watermarks with custom positioning.",
+          "badge": "New",
+          "link": "/tools/add-watermark-image"
+        },
+        {
+          "id": "image-dimensions-detector",
+          "title": "Image Dimensions Detector",
+          "description": "Get width, height, aspect ratio, and file size instantly.",
+          "link": "/tools/image-dimensions-detector"
+        }
+      ]
+    },
+    {
+      "id": "video-audio",
+      "name": "Video & Audio Tools",
+      "description": "Download, edit, and convert video and audio files with ease",
+      "icon": "🎥",
+      "tools": [
+        {
+          "id": "video-thumbnail-generator",
+          "title": "Video Thumbnail Generator",
+          "description": "Extract thumbnail images from video files at any timestamp.",
+          "link": "/tools/video-thumbnail-generator"
+        },
+        {
+          "id": "video-trimmer",
+          "title": "Video Trimmer",
+          "description": "Cut and trim video clips without re-encoding.",
+          "badge": "Beta",
+          "link": "/tools/video-trimmer"
+        },
+        {
+          "id": "remove-audio-video",
+          "title": "Remove Audio from Video",
+          "description": "Strip audio tracks from video files quickly.",
+          "link": "/tools/remove-audio-video"
+        },
+        {
+          "id": "audio-file-converter",
+          "title": "Audio File Converter",
+          "description": "Convert between MP3, WAV, OGG, and other audio formats.",
+          "link": "/tools/audio-file-converter"
+        },
+        {
+          "id": "audio-trimmer",
+          "title": "Audio Trimmer",
+          "description": "Cut and trim audio files with precise timestamps.",
+          "link": "/tools/audio-trimmer"
+        },
+        {
+          "id": "gif-maker-video",
+          "title": "GIF Maker from Video",
+          "description": "Create animated GIFs from video clips with size control.",
+          "link": "/tools/gif-maker-video"
+        }
+      ]
+    },
+    {
+      "id": "url-web",
+      "name": "URL & Web Tools",
+      "description": "Shorten URLs, generate QR codes, and manage web links",
+      "icon": "🔗",
+      "tools": [
+        {
+          "id": "qr-code-generator",
+          "title": "QR Code Generator",
+          "description": "Create QR codes for URLs, text, WiFi, or contact info.",
+          "badge": "Popular",
+          "link": "/tools/qr-code-generator"
+        },
+        {
+          "id": "url-encoder-decoder",
+          "title": "URL Encoder / Decoder",
+          "description": "Encode or decode URLs and query parameters.",
+          "link": "/tools/url-encoder-decoder"
+        },
+        {
+          "id": "utm-builder",
+          "title": "UTM Builder",
+          "description": "Generate UTM-tagged URLs for campaign tracking.",
+          "badge": "Trending",
+          "link": "/tools/utm-builder"
+        },
+        {
+          "id": "open-graph-preview",
+          "title": "Open Graph Preview",
+          "description": "Preview how URLs appear when shared on social media.",
+          "link": "/tools/open-graph-preview"
+        },
+        {
+          "id": "short-url-expander",
+          "title": "Short URL Expander",
+          "description": "Reveal the destination of shortened URLs safely.",
+          "link": "/tools/short-url-expander"
+        },
+        {
+          "id": "url-parser",
+          "title": "URL Parser",
+          "description": "Break down URLs into protocol, domain, path, and parameters.",
+          "link": "/tools/url-parser"
+        },
+        {
+          "id": "bulk-url-checker",
+          "title": "Bulk URL Checker",
+          "description": "Check HTTP status codes for multiple URLs at once.",
+          "link": "/tools/bulk-url-checker"
+        }
+      ]
+    },
+    {
+      "id": "social-content",
+      "name": "Social & Content Tools",
+      "description": "Create engaging social media content, captions, and optimize your posts",
+      "icon": "📱",
+      "tools": [
+        {
+          "id": "twitter-thread-formatter",
+          "title": "Twitter Thread Formatter",
+          "description": "Format long text into numbered Twitter threads.",
+          "link": "/tools/twitter-thread-formatter"
+        },
+        {
+          "id": "hashtag-generator",
+          "title": "Hashtag Generator",
+          "description": "Create relevant hashtags based on keywords or topics.",
+          "link": "/tools/hashtag-generator"
+        },
+        {
+          "id": "social-media-image-resizer",
+          "title": "Social Media Image Resizer",
+          "description": "Resize images to perfect dimensions for any platform.",
+          "badge": "Popular",
+          "link": "/tools/social-media-image-resizer"
+        },
+        {
+          "id": "meta-tag-generator",
+          "title": "Meta Tag Generator",
+          "description": "Create SEO-optimized title, description, and OG tags.",
+          "link": "/tools/meta-tag-generator"
+        },
+        {
+          "id": "youtube-thumbnail-downloader",
+          "title": "YouTube Thumbnail Downloader",
+          "description": "Download high-quality thumbnails from any YouTube video.",
+          "link": "/tools/youtube-thumbnail-downloader"
+        },
+        {
+          "id": "engagement-rate-calculator",
+          "title": "Engagement Rate Calculator",
+          "description": "Calculate social media engagement rates from likes/comments.",
+          "badge": "New",
+          "link": "/tools/engagement-rate-calculator"
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tools",
+      "description": "Essential utilities for developers - JSON, Base64, UUID, and more",
+      "icon": "💡",
+      "tools": [
+        {
+          "id": "json-formatter-validator",
+          "title": "JSON Formatter & Validator",
+          "description": "Format, validate, and minify JSON with syntax highlighting.",
+          "badge": "Popular",
+          "link": "/tools/json-formatter-validator"
+        },
+        {
+          "id": "base64-encoder-decoder",
+          "title": "Base64 Encoder / Decoder",
+          "description": "Encode and decode text or files to/from Base64.",
+          "badge": "Trending",
+          "link": "/tools/base64-encoder-decoder"
+        },
+        {
+          "id": "uuid-generator",
+          "title": "UUID Generator",
+          "description": "Generate UUIDs (v4) in bulk with copy-to-clipboard.",
+          "link": "/tools/uuid-generator"
+        },
+        {
+          "id": "hash-generator",
+          "title": "Hash Generator",
+          "description": "Create MD5, SHA-1, SHA-256, or SHA-512 hashes from text.",
+          "link": "/tools/hash-generator"
+        },
+        {
+          "id": "unix-timestamp-converter",
+          "title": "Unix Timestamp Converter",
+          "description": "Convert between Unix timestamps and human-readable dates.",
+          "link": "/tools/unix-timestamp-converter"
+        },
+        {
+          "id": "color-converter",
+          "title": "Color Converter",
+          "description": "Convert between HEX, RGB, HSL, and CMYK color formats.",
+          "link": "/tools/color-converter"
+        },
+        {
+          "id": "regex-tester",
+          "title": "Regex Tester",
+          "description": "Test regular expressions with live match highlighting.",
+          "link": "/tools/regex-tester"
+        },
+        {
+          "id": "jwt-decoder",
+          "title": "JWT Decoder",
+          "description": "Decode and inspect JSON Web Tokens without verification.",
+          "badge": "New",
+          "link": "/tools/jwt-decoder"
+        }
+      ]
+    },
+    {
+      "id": "productivity-study",
+      "name": "Productivity & Study Tools",
+      "description": "Timers, planners, and tools to boost your productivity and focus",
+      "icon": "📈",
+      "tools": [
+        {
+          "id": "pomodoro-timer",
+          "title": "Pomodoro Timer",
+          "description": "Focus timer with customizable work/break intervals.",
+          "badge": "Popular",
+          "link": "/tools/pomodoro-timer"
+        },
+        {
+          "id": "note-taking-app",
+          "title": "Note Taking App",
+          "description": "Quick notes with auto-save and Markdown support.",
+          "link": "/tools/note-taking-app"
+        },
+        {
+          "id": "simple-todo-list",
+          "title": "Simple To-Do List",
+          "description": "Create, organize, and check off tasks locally.",
+          "link": "/tools/simple-todo-list"
+        },
+        {
+          "id": "days-until-calculator",
+          "title": "Days Until Calculator",
+          "description": "Count days between dates or until important events.",
+          "link": "/tools/days-until-calculator"
+        },
+        {
+          "id": "grade-calculator",
+          "title": "Grade Calculator",
+          "description": "Calculate weighted grades and GPA from assignments.",
+          "badge": "New",
+          "link": "/tools/grade-calculator"
+        },
+        {
+          "id": "time-zone-converter",
+          "title": "Time Zone Converter",
+          "description": "Convert times across multiple time zones instantly.",
+          "link": "/tools/time-zone-converter"
+        }
+      ]
+    },
+    {
+      "id": "calculators-converters",
+      "name": "Calculators & Converters",
+      "description": "Smart calculators and converters for all your calculation needs",
+      "icon": "🧮",
+      "tools": [
+        {
+          "id": "scientific-calculator",
+          "title": "Scientific Calculator",
+          "description": "Full-featured calculator with advanced math functions.",
+          "link": "/tools/scientific-calculator"
+        },
+        {
+          "id": "currency-converter",
+          "title": "Currency Converter",
+          "description": "Convert between global currencies with live exchange rates.",
+          "link": "/tools/currency-converter"
+        },
+        {
+          "id": "unit-converter",
+          "title": "Unit Converter",
+          "description": "Convert length, weight, temperature, and volume units.",
+          "link": "/tools/unit-converter"
+        },
+        {
+          "id": "percentage-calculator",
+          "title": "Percentage Calculator",
+          "description": "Calculate percentages, discounts, and percentage changes.",
+          "link": "/tools/percentage-calculator"
+        },
+        {
+          "id": "age-calculator",
+          "title": "Age Calculator",
+          "description": "Calculate exact age in years, months, and days from birthdate.",
+          "link": "/tools/age-calculator"
+        },
+        {
+          "id": "bmi-calculator",
+          "title": "BMI Calculator",
+          "description": "Calculate Body Mass Index with weight and height inputs.",
+          "link": "/tools/bmi-calculator"
+        },
+        {
+          "id": "tip-calculator",
+          "title": "Tip Calculator",
+          "description": "Calculate tips and split bills among multiple people.",
+          "badge": "Popular",
+          "link": "/tools/tip-calculator"
+        },
+        {
+          "id": "discount-calculator",
+          "title": "Discount Calculator",
+          "description": "Find final price after applying percentage discounts.",
+          "link": "/tools/discount-calculator"
+        }
+      ]
+    },
+    {
+      "id": "security-utility",
+      "name": "Security & Utility Tools",
+      "description": "Password generators, encryption tools, and essential utilities",
+      "icon": "🔐",
+      "tools": [
+        {
+          "id": "password-generator",
+          "title": "Password Generator",
+          "description": "Generate strong, random passwords with custom rules.",
+          "badge": "Popular",
+          "link": "/tools/password-generator"
+        },
+        {
+          "id": "password-strength-checker",
+          "title": "Password Strength Checker",
+          "description": "Test password security and get improvement suggestions.",
+          "link": "/tools/password-strength-checker"
+        },
+        {
+          "id": "encryption-decryption",
+          "title": "Encryption / Decryption Tool",
+          "description": "Encrypt and decrypt text using AES or other algorithms.",
+          "link": "/tools/encryption-decryption"
+        },
+        {
+          "id": "email-validator",
+          "title": "Email Validator",
+          "description": "Validate email address format and syntax.",
+          "link": "/tools/email-validator"
+        },
+        {
+          "id": "ip-address-lookup",
+          "title": "IP Address Lookup",
+          "description": "Get geolocation and ISP info from any IP address.",
+          "badge": "Trending",
+          "link": "/tools/ip-address-lookup"
+        },
+        {
+          "id": "dns-lookup-tool",
+          "title": "DNS Lookup Tool",
+          "description": "Query DNS records (A, MX, TXT, CNAME) for any domain.",
+          "link": "/tools/dns-lookup-tool"
+        },
+        {
+          "id": "password-leak-checker",
+          "title": "Password Leak Checker",
+          "description": "Check if a password has been exposed in data breaches.",
+          "badge": "New",
+          "link": "/tools/password-leak-checker"
+        }
+      ]
+    }
+  ]
+}

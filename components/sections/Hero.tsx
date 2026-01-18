@@ -9,10 +9,10 @@ const HomePage: React.FC = () => {
     return (
         <div className="font-sans min-h-screen bg-stone-50 dark:bg-black">
 
-            <div className="relative z-10 p-4 pt-24 pb-12 gap-8 sm:p-8 sm:pt-28 md:pt-32 lg:p-20 lg:pt-40 lg:pb-20 lg:gap-16">
+            <div className="relative z-10 p-4 pt-40 pb-2 gap-8 sm:p-8 sm:pt-28 md:pt-32 lg:p-2 lg:pt-40 lg:pb-2 lg:gap-16">
 
                 {/* Hero Section */}
-                <div className="text-center max-w-6xl mx-auto mb-16 sm:mb-20 md:mb-24 lg:mb-32">
+                <div className="text-center max-w-6xl mx-auto mb-2   sm:mb-2 md:mb-14 lg:mb-22">
                     <div className="space-y-6 md:space-y-8">
                         <div className="relative">
                             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black leading-none tracking-tight text-gray-900 dark:text-white" style={{ fontFamily: 'Agile, sans-serif' }}>
@@ -20,10 +20,10 @@ const HomePage: React.FC = () => {
                                 <br />
                                 In One Place
                             </h1>
-                            <div className="absolute -bottom-2 md:-bottom-4 left-1/2 transform -translate-x-1/2 w-20 md:w-62 h-1 bg-gray-900 dark:bg-white"></div>
+                            <div className="absolute -bottom-2 md:-bottom-4 left-1/2 transform -translate-x-1/2 w-32 md:w-82 h-1 bg-gray-900 dark:bg-white"></div>
                         </div>
 
-                        <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-light max-w-4xl mx-auto leading-relaxed px-4 sm:px-0 text-gray-700 dark:text-gray-300">
+                        <p style={{ fontFamily: 'outfit, outfit Fallback'}} className="text-base sm:text-lg md:text-xl lg:text-2xl font-light max-w-4xl mx-auto leading-relaxed px-4 sm:px-0 text-gray-700 dark:text-gray-300">
                             Fast, privacy-focused utilities for developers. No sign-up required.
                             No ads. Process everything client-side.
                         </p>
@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
 
 
                         <div className="flex items-center justify-center space-x-6 sm:space-x-8 md:space-x-12 pt-8 sm:pt-10 md:pt-12">
-                            <div className="text-center">
+                            <div style={{ fontFamily: 'outfit, outfit Fallback'}} className="text-center">
                                 <div className="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 dark:text-white">
                                     100+
                                 </div>
@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
                                     TOOLS
                                 </div>
                             </div>
-                            <div className="w-px h-8 sm:h-10 md:h-12 bg-gray-300 dark:bg-gray-700"></div>
+                            <div style={{ fontFamily: 'outfit, outfit Fallback'}} className="w-px h-8 sm:h-10 md:h-12 bg-gray-300 dark:bg-gray-700"></div>
                             <div className="text-center">
                                 <div className="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 dark:text-white">
                                     FREE
@@ -73,7 +73,7 @@ const HomePage: React.FC = () => {
                                     TO USE
                                 </div>
                             </div>
-                            <div className="w-px h-8 sm:h-10 md:h-12 bg-gray-300 dark:bg-gray-700"></div>
+                            <div style={{ fontFamily: 'outfit, outfit Fallback'}} className="w-px h-8 sm:h-10 md:h-12 bg-gray-300 dark:bg-gray-700"></div>
                             <div className="text-center">
                                 <div className="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 dark:text-white">
                                     24/7
