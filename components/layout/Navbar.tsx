@@ -6,25 +6,8 @@ import { usePathname } from "next/navigation";
 import { Sun, Moon, Menu, X } from "lucide-react";
 
 export default function Navbar() {
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-
-  // Apply default dark theme on load
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") as "dark" | "light" | null;
-    const activeTheme = storedTheme ?? "dark";
-
-    setTheme(activeTheme);
-    document.documentElement.classList.toggle("dark", activeTheme === "dark");
-  }, []);
-
-  const toggleTheme = () => {
-    const nextTheme = theme === "dark" ? "light" : "dark";
-    setTheme(nextTheme);
-    localStorage.setItem("theme", nextTheme);
-    document.documentElement.classList.toggle("dark", nextTheme === "dark");
-  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 pt-10 pb-4">
@@ -34,7 +17,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
-            <h1 className="__className_a0cab8 cursor-pointer whitespace-nowrap text-3xl font-normal text-foreground transition-opacity hover:opacity-80">
+            <h1 className="__className_a0cab8 cursor-pointer whitespace-nowrap text-3xl font-normal text-white transition-opacity hover:opacity-80">
               ToolVerse
             </h1>
           </Link>
@@ -48,8 +31,8 @@ export default function Navbar() {
                   href="/"
                   className={`inline-block rounded-full px-4 py-1.5 text-sm font-medium transition ${
                     pathname === "/" 
-                      ? "text-foreground border-b-2 border-primary" 
-                      : "text-foreground/50 hover:text-foreground"
+                      ? "text-white border-b-2 border-primary" 
+                      : "text-white/50 hover:text-white"
                   }`}
                 >
                   Home
@@ -67,8 +50,8 @@ export default function Navbar() {
                     href={href}
                     className={`inline-block rounded-full px-4 py-1.5 text-sm font-medium transition ${
                       pathname === href 
-                        ? "text-foreground border-b-2 border-primary" 
-                        : "text-foreground/70 hover:text-foreground"
+                        ? "text-white border-b-2 border-primary" 
+                        : "text-white/70 hover:text-white"
                     }`}
                   >
                     {label}
@@ -79,42 +62,23 @@ export default function Navbar() {
               {/* CTA */}
               <li>
                 <Link href="/login">
-                  <button style={{ backgroundColor: "hsl(217, 91%, 60%)" }} className="relative rounded-full px-4 py-1.5 text-sm font-medium text-primary-foreground transition hover:opacity-80">
+                  <button style={{ backgroundColor: "hsl(217, 91%, 60%)" }} className="relative rounded-full px-4 py-1.5 text-sm font-medium text-white transition hover:opacity-80">
                     Get Started
                     <div className="absolute bottom-0 h-1/3 w-full -translate-x-4 rounded-full bg-white/30 blur-sm" />
                   </button>
                 </Link>
               </li>
-
-              {/* Theme Toggle */}
-              {/* <li className="ml-1">
-                <button
-                  onClick={toggleTheme}
-                  aria-label="Toggle theme"
-                  className="rounded-full bg-foreground/10 p-2 transition hover:bg-foreground/20"
-                >
-                  {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-                </button>
-              </li> */}
             </ul>
           </div>
 
-          {/* Mobile Menu Button & Theme Toggle */}
+          {/* Mobile Menu Button  */}
           <div className="flex md:hidden items-center gap-2">
-            {/* Theme Toggle */}
-            <button
-              onClick={toggleTheme}
-              aria-label="Toggle theme"
-              className="rounded-full bg-foreground/10 p-2 transition hover:bg-foreground/20"
-            >
-              {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-            </button>
 
             {/* Hamburger Menu */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
-              className="rounded-full bg-foreground/10 p-2 transition hover:bg-foreground/20"
+              className="rounded-full bg-white/10 p-2 transition hover:bg-white/20"
             >
               {mobileMenuOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
@@ -130,8 +94,8 @@ export default function Navbar() {
                   href="/"
                   className={`block rounded-full px-4 py-2 text-sm font-medium transition ${
                     pathname === "/" 
-                      ? "text-foreground border-b-2 border-primary" 
-                      : "text-foreground/70 hover:text-foreground"
+                      ? "text-white border-b-2 border-primary" 
+                      : "text-white/70 hover:text-white"
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -150,8 +114,8 @@ export default function Navbar() {
                     href={href}
                     className={`block rounded-full px-4 py-2 text-sm font-medium transition ${
                       pathname === href 
-                        ? "text-foreground border-b-2 border-primary" 
-                        : "text-foreground/70 hover:text-foreground"
+                        ? "text-white border-b-2 border-primary" 
+                        : "text-white/70 hover:text-white"
                     }`}
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -162,7 +126,7 @@ export default function Navbar() {
 
               <li>
                 <Link href="/login" onClick={() => setMobileMenuOpen(false)}>
-                  <button style={{ backgroundColor: "hsl(217, 91%, 60%)" }} className="w-full rounded-full px-4 py-2 text-sm font-medium text-primary-foreground transition hover:opacity-80">
+                  <button style={{ backgroundColor: "hsl(217, 91%, 60%)" }} className="w-full rounded-full px-4 py-2 text-sm font-medium text-white transition hover:opacity-80">
                     Get Started
                   </button>
                 </Link>

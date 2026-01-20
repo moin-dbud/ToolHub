@@ -165,10 +165,10 @@ export default function Tools() {
         <div key={category.id} className="mb-24">
           {/* Header */}
           <div className="mb-12 text-center">
-            <h2 style={{ fontFamily: 'outfit, outfit Fallback' }} className="text-3xl font-semibold text-foreground sm:text-4xl">
+            <h2 style={{ fontFamily: 'outfit, outfit Fallback' }} className="text-3xl font-semibold text-white sm:text-4xl">
               {category.icon} {category.name}
             </h2>
-            <p style={{ fontFamily: 'outfit, outfit Fallback' }} className="mt-3 text-muted-foreground">
+            <p style={{ fontFamily: 'outfit, outfit Fallback' }} className="mt-3 text-white/50">
               {category.description}
             </p>
           </div>
@@ -196,15 +196,15 @@ export default function Tools() {
                     <Icon size={32} />
                   </div>
 
-                  <h3 style={{ fontFamily: 'outfit, outfit Fallback' }} className="text-lg font-bold text-gray-900 dark:text-white">
+                  <h3 style={{ fontFamily: 'outfit, outfit Fallback' }} className="text-lg font-bold text-white">
                     {tool.title}
                   </h3>
 
-                  <p style={{ fontFamily: 'outfit, outfit Fallback' }} className="mt-2 text-sm line-clamp-2 text-gray-600 dark:text-gray-400">
+                  <p style={{ fontFamily: 'outfit, outfit Fallback' }} className="mt-2 text-sm line-clamp-2 text-white/50">
                     {tool.description}
                   </p>
 
-                  <span style={{ color: "hsl(217, 91%, 60%)" }} className="mt-6 inline-flex items-center gap-1 text-sm font-medium text-primary transition group-hover:gap-2">
+                  <span style={{ color: "hsl(217, 91%, 60%)" }} className="mt-6 inline-flex items-center gap-1 text-sm font-medium text-white transition group-hover:gap-2">
                     Open Tool →
                   </span>
                 </>

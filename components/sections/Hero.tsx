@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
                 <div className="text-center max-w-6xl mx-auto mb-2   sm:mb-2 md:mb-14 lg:mb-22">
                     <div className="space-y-6 md:space-y-8">
                         <div className="relative">
-                            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black leading-none tracking-tight text-gray-900 dark:text-white" style={{ fontFamily: 'Agile, sans-serif' }}>
+                            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black leading-none tracking-tight text-gray-900 dark:text-white" style={{ fontFamily: 'outfit, outfit Fallback' }}>
                                 All Your Developer Tools 
                                 <br />
                                 In One Place
@@ -58,7 +58,7 @@ const HomePage: React.FC = () => {
                         <div className="flex items-center justify-center space-x-6 sm:space-x-8 md:space-x-12 pt-8 sm:pt-10 md:pt-12">
                             <div style={{ fontFamily: 'outfit, outfit Fallback'}} className="text-center">
                                 <div className="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 dark:text-white">
-                                    100+
+                                    72+
                                 </div>
                                 <div className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400">
                                     TOOLS
