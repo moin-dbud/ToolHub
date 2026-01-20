@@ -116,7 +116,7 @@
     background-color: hsl(0 0% 4%);
   }
 
-  .dark {
+  /* .dark {
     --background: 0 0% 4%;
     --foreground: 0 0% 96%;
 
@@ -141,7 +141,7 @@
     --border: 0 0% 16%;
     --input: 0 0% 16%;
     --ring: 217 91% 65%;
-  }
+  } */
 
   body {
     background-color: hsl(var(--background));

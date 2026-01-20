@@ -87,7 +87,7 @@ export default function Navbar() {
               </li>
 
               {/* Theme Toggle */}
-              <li className="ml-1">
+              {/* <li className="ml-1">
                 <button
                   onClick={toggleTheme}
                   aria-label="Toggle theme"
@@ -95,7 +95,7 @@ export default function Navbar() {
                 >
                   {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
 

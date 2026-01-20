@@ -7,7 +7,7 @@ import  Navbar from "@/components/layout/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ToolHub - Free Developer Utilities",
+  title: "ToolVerse - Free Developer Utilities",
   description: "Fast, privacy-focused utility tools for developers. PDF merge, JSON formatter, image resize, and 20+ more tools.",
 };
 
